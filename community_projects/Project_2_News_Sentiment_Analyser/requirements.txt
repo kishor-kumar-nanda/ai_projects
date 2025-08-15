@@ -1,0 +1,17 @@
+# LangChain Core
+langchain
+langchain-core
+langchain_community
+unstructured # UnstructuredURLLoader
+
+# OpenAI Integration
+langchain-openai
+
+# Frontend UI
+streamlit
+
+# Environment Variable Management
+python-dotenv
+
+# PDF Processing
+pypdf
