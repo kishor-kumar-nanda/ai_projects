@@ -90,18 +90,3 @@ def parse_resume_from_pdf(file_path: str) -> Optional[Resume]:
         print(f"An unexpected error occurred during parsing: {e}")
         return None
 
-# # Example usage
-# if __name__ == "__main__":
-#     # Correctly construct the file path using os.path.join
-#     file_path = os.path.join(os.getcwd(), "Resume.pdf")
-    
-#     parsed_resume = parse_resume_from_pdf(file_path)
-
-#     if parsed_resume:
-#         # Pydantic's model_dump_json is used to pretty-print the output
-#         print(parsed_resume.model_dump_json(indent=2))
-        
-        
-#         print("\nResume parsed successfully.")
-#     else:
-#         print("Failed to parse resume.")
